@@ -1,40 +1,52 @@
-# Pix Inter
 
-Esse projeto foi realizado durante a semana Inter na DIO
+![Badge](https://img.shields.io/badge/DIO-Pix%20--%20Inter-orange?style=for-the-badge&logo=appveyor) 
 
-É construido com Typescript com NodeJs e React
+<h1 align="center">Pix Inter</h1> 
 
-## Backend
+<p align="center">App para envio e pagamento de Pix - Semana Inter Dio </p>
 
-Fazer o clone do projeto
+   * [Sobre](#Sobre)
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Features](#features)
+   * [Como Iniciar](#rodando-o-projeto)
+   * [Tecnologias](#tecnologias)
 
-na pasta dio-inter-backend rodar o comando
 
-### `yarn`
+### Features
 
-Esse comando vai fazer o download das depêndencias
+- [x] Login
+- [x] Cadastrar usuário 
+- [x] Solicitar Pix
+- [x] Receber Pix
+- [x] Movimentações
 
-Construir o container com o comando:
- 
- ### `docker-compose up -d`
 
-Após iniciar o container é preciso iniciar o servidor com o comando: 
+### 🎲 Rodando o Projeto (servidor)
 
- ### `yarn dev`
+```bash
+# Clone este repositório
+$ git clone <https://github.com/monialodo/dio-inter.git>
 
-## Frontend 
+# Abra a sua IDE e instale as depedências com o yarn na pasta backend
 
-Fazer o clone do projeto
+# No terminal execute docker-compose up -d
 
-na pasta dio-inter-frontend rodar o comando
+# Após iniciar o container execute yarn dev
 
-### `yarn`
+# Vá até a pasta frontend e instale as depedências com o yarn
 
-Esse comando vai fazer o download das depêndencias
+# No terminal execute yarn start
 
-Após atualização inicamos o react com o comando: 
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 
- ### `yarn start`
+```
 
- O programa vai rodar em http://localhost:3000/
+### 🛠 Tecnologias
 
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Typescript](https://www.typescriptlang.org/)
+- [Docker](https://www.docker.com/)
+- [Postgres](https://www.postgresql.org/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [React](https://pt-br.reactjs.org/)
